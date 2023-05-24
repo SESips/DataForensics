@@ -27,8 +27,8 @@ The `Topic_model_tweets.ipynb` file is responsible for extracting topics from th
 
 To run the notebook the tweets.csv, word_list.csv and topic_words.csv files need to be placed within the same folder as the notebook.
 
-### 3. Metadata Analysis (DF_analysis_metadatav2.ipynb)
-The `DF_analysis_metadatav2.ipynb` file performs an analysis on the metadata in the Twitter dataset to gain insights and draw conclusions. It includes statistical analysis, data preprocessing methods and visualization techniques to understand the data. The output of this analysis can provide valuable information about trends present in the Twitter data, which could potentially lead to new indicators for extremist content being uncovered.
+### 3. Metadata Analysis (DF_analysis_metadatav3.ipynb)
+The `DF_analysis_metadatav3.ipynb` file performs an analysis on the metadata in the Twitter dataset to gain insights and draw conclusions. It includes statistical analysis, data preprocessing methods and visualization techniques to understand the data. The output of this analysis can provide valuable information about trends present in the Twitter data, which could potentially lead to new indicators for extremist content being uncovered.
 
 To run the notebook the tweets.csv file needs to be placed in the same folder as the notebook. More documentation on this dataset can be found at https://www.kaggle.com/datasets/fifthtribe/how-isis-uses-twitter.
 
