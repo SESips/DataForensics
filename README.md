@@ -1,6 +1,3 @@
-The structure of this project is as follows:
-DataForensics
-
 ## Overview
 This project aims to analyze a collection of Telegram messages related to a specific topic (CTER). It consists of three main components: a crawler to gather the messages, a topic modeling module to extract topics from the messages and on the Twitter data, and a meta-analysis module to perform analyses on the other Twitter data that functions as input for the topic modelling.
 
