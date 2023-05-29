@@ -1,6 +1,3 @@
-The structure of this project is as follows:
-DataForensics
-
 ## Overview
 This project aims to analyze a collection of Telegram messages related to a specific topic (CTER). It consists of three main components: a crawler to gather the messages, a topic modeling module to extract topics from the messages and on the Twitter data, and a meta-analysis module to perform analyses on the other Twitter data that functions as input for the topic modelling.
 
@@ -30,8 +27,8 @@ The `Topic_model_tweets.ipynb` file is responsible for extracting topics from th
 
 To run the notebook the tweets.csv, word_list.csv and topic_words.csv files need to be placed within the same folder as the notebook.
 
-### 3. Meta-Analyses (DF_analysis_metadatav2.ipynb)
-The `DF_analysis_metadatav2.ipynb` file performs meta-analyses on the Twitter data to gain insights and draw conclusions. It includes statistical analysis, visualization, and other techniques to understand the Twitter data. The output of the meta-analyses can provide valuable information about the overall trends present in the Twitter data.
+### 3. Metadata Analysis (DF_analysis_metadatav3.ipynb)
+The `DF_analysis_metadatav3.ipynb` file performs an analysis on the metadata in the Twitter dataset to gain insights and draw conclusions. It includes statistical analysis, data preprocessing methods and visualization techniques to understand the data. The output of this analysis can provide valuable information about trends present in the Twitter data, which could potentially lead to new indicators for extremist content being uncovered.
 
-To run the notebook the tweets.csv file needs to be placed within the same folder as the notebook.
+To run the notebook the tweets.csv file needs to be placed in the same folder as the notebook. More documentation on this dataset can be found at https://www.kaggle.com/datasets/fifthtribe/how-isis-uses-twitter.
 
